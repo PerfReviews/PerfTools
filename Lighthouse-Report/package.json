@@ -1,0 +1,38 @@
+{
+  "name": "perftools-lighthouse-report",
+  "version": "1.0.0",
+  "description": "Reposte con linghthouse de diferentes sites.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "perftools",
+    "perfreviews",
+    "webperf",
+    "performance",
+    "perfmatters"
+  ],
+  "authors": [
+    {
+      "name": "Joan León",
+      "mail": "joan.leon@gmail.com",
+      "url": "https://github.com/nucliweb",
+      "twitter": "@nucliweb"
+    },
+    {
+      "name": "Jose M. Perez",
+      "mail": "jmperez1985@gmail.com",
+      "url": "https://github.com/JMPerez",
+      "twitter": "@jmperezperez"
+    }
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "chrome-launcher": "^0.10.5",
+    "lighthouse": "^4.0.0-alpha.2-3.2.1",
+    "puppeteer": "^1.11.0",
+    "request": "^2.88.0",
+    "util": "^0.11.1"
+  }
+}
