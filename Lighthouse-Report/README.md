@@ -1,5 +1,3 @@
-![]()
-
 # PerfTools Lighthouse Report
 
 Script para generar reportes de Lighthouse
