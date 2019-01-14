@@ -28,6 +28,10 @@ En la carpeta `reports` encontrás los reportes en formato `.json` y .`html`.
 
 > Dejamos a elección del usuario si quiere utilizar un servidor para visualizar los resultado.
 
+## Demo
+
+[Lighthouse Report](https://perfreviews.github.io/PerfTools/Lighthouse-Report/reports/index.html)
+
 ## Tutotial
 
 En este vídeo comentamos el desarrollo de este script.
