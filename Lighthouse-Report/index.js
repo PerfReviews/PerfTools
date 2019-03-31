@@ -65,18 +65,26 @@ if (!fs.existsSync(dir)) {
         console.log(`The html file for ${id} was saved!`);
       });
 
-      links.push(`<li><a href="${id}.html">${id}</a></li>`)
+      links.push(`<li><a href="${id}.html" target="_blank">${id}</a></li>`)
 
       await browser.disconnect();
       await chrome.kill();
     })();
   }
 
-  let ToC = `<html><body>
-        <h1>${package.name}</h1>
-        <p>${package.description}</p>
-        <ul>${links.join('')}</ul>
-        </body></html>`;
+  let ToC = `<html>
+        <head>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
+        </head>
+        <body style="padding: 2em">
+          <h1 class="title">${package.name}</h1>
+          <h2 class="subtitle">${package.description}</h2>
+          <aside class="menu">
+            <p class="menu-label">PerfReviews</p>
+            <ul class="menu-list">${links.join('')}</ul>
+          </aside>
+        </body>
+  </html>`;
   fs.writeFile(`${dir}/index.html`, ToC, function (err) {
     if (err) {
       return console.log(err);

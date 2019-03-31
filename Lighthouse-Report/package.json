@@ -1,7 +1,7 @@
 {
   "name": "perftools-lighthouse-report",
   "version": "1.0.0",
-  "description": "Reposte con linghthouse de diferentes sites.",
+  "description": "Reporte con Linghthouse de diferentes sites.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
