@@ -68,8 +68,8 @@ if (!fs.existsSync(dir)) {
     if (err) {
       return console.log(err);
     }
-    console.log('---------------------------\n');
-    console.log('ToC for sites was saved! 😊');
-    console.log('---------------------------\n');
+    console.log('-----------------------------');
+    console.log(' ToC for sites was saved! 😊 ');
+    console.log('-----------------------------');
   });
 })();
