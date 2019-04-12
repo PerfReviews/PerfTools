@@ -22,9 +22,9 @@ npm install
 
 Ejecutar `node index.js` para generar los reportes de los sites definidos en el archivo [`data.js`](./data.js).
 
-En la carpeta `reports` encontrás los reportes en formato `.json` y .`html`.
+En la carpeta `reports` encontrarás los reportes en formato `.json` y .`html`.
 
-> Dejamos a elección del usuario si quiere utilizar un servidor para visualizar los resultado.
+> Dejamos a elección del usuario si quiere utilizar un servidor para visualizar los resultados.
 
 ## Demo
 
