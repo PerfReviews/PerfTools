@@ -65,7 +65,7 @@ if (!fs.existsSync(dir)) {
         console.log(`The html file for ${id} was saved!`);
       });
 
-      links.push(`<li><a href="${id}.html" target="_blank">${id}</a></li>`)
+      links.push(`<li><a href="${id}.html">${id}</a></li>`)
 
       await browser.disconnect();
       await chrome.kill();
