@@ -9,11 +9,11 @@
 const fs = require('fs');
 const path = require('path');
 
-const files = fs.readdirSync('./reports-back');
+const files = fs.readdirSync('./reports');
 let data = 'Partido, Puntuación, Numero de peticiones, Tamaño de la página (MiB), Scripts, CSS\r\n';
 
 for (let i = 0; i < files.length; i++) {
-  const filename = path.join('./reports-back/', files[i]);
+  const filename = path.join('./reports/', files[i]);
 
   if (filename.indexOf('.json')>=0) {
       const contents = fs.readFileSync(filename);
