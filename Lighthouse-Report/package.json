@@ -31,7 +31,7 @@
   "dependencies": {
     "chrome-launcher": "^0.10.5",
     "lighthouse": "^4.0.0-alpha.2-3.2.1",
-    "puppeteer": "^1.11.0",
+    "puppeteer": "^1.13.0",
     "request": "^2.88.0",
     "util": "^0.11.1"
   }
